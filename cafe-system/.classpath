@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Images"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/jfreechart-experimental-1.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/protobuf-java-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/orsoncharts-1.6-fx-demo.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/orsoncharts-1.6-swing-demo.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/jackson-annotations-2.16.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/jackson-core-2.16.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/jackson-databind-2.16.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/jackson-jakarta-rs-base-2.16.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/jackson-module-jakarta-xmlbind-annotations-2.16.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/jakarta.activation-api-2.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/stax2-api-4.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/woodstox-core-6.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/jackson-dataformat-xml-2.16.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/jackson-jakarta-rs-xml-provider-2.16.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/jakarta.activation-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/jakarta.xml.bind-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/mysql-connector-j-8.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aravi/Downloads/JARFILES/rs2xml.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
