@@ -105,7 +105,7 @@ public class form1 extends JFrame {
 		
 		JTextPane txtpnAsARestaurant = new JTextPane();
 		txtpnAsARestaurant.setBackground(new Color(255, 255, 224));
-		txtpnAsARestaurant.setFont(new Font("Curlz MT", Font.BOLD, 22));
+		txtpnAsARestaurant.setFont(new Font("Calibre", Font.BOLD, 22));
 		txtpnAsARestaurant.setText("\r\nAs a cafe, we\u2019re proud to say we\u2019ve made some changes for you, our customers. Without you, there would be no us. So, we\u2019re making it our mission to be the best you want. One that\u2019s dedicated to improving the way we prepare our quality food and the ingredients that go into it. One that understands that what\u2019s good for you is good for us. That\u2019s why our food philosophy is this\u2014The Simpler The Better.");
 		txtpnAsARestaurant.setBounds(136, 302, 728, 252);
 		panel.add(txtpnAsARestaurant);
@@ -506,7 +506,7 @@ public class form1 extends JFrame {
 		
 		JLabel lblNewLabel_16 = new JLabel("J .A. M  Cafe");
 		lblNewLabel_16.setForeground(new Color(0, 0, 0));
-		lblNewLabel_16.setFont(new Font("Matura MT Script Capitals", Font.BOLD, 38));
+		lblNewLabel_16.setFont(new Font("Calibri", Font.BOLD, 38));
 		lblNewLabel_16.setBounds(527, 0, 414, 42);
 		contentPane.add(lblNewLabel_16);
 		

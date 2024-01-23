@@ -174,7 +174,7 @@ public class InsertMenuItem extends JFrame {
 		contentPane.add(btnExit_1);
 		
 		label = new JLabel("J .A. M  Cafe");
-		label.setFont(new Font("Matura MT Script Capitals", Font.BOLD, 20));
+		label.setFont(new Font("Calibre", Font.BOLD, 20));
 		label.setBounds(10, 11, 182, 32);
 		contentPane.add(label);
 		

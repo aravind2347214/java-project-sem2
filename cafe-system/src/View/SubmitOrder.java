@@ -201,7 +201,7 @@ public class SubmitOrder extends JFrame {
 		contentPane.add(lblNewLabel_4);
 		
 		JLabel lblNewLabel_5 = new JLabel("J .A. M  Cafe");
-		lblNewLabel_5.setFont(new Font("Matura MT Script Capitals", Font.BOLD, 44));
+		lblNewLabel_5.setFont(new Font("Calibre", Font.BOLD, 44));
 		lblNewLabel_5.setForeground(Color.BLACK);
 		lblNewLabel_5.setBounds(463, 11, 432, 59);
 		contentPane.add(lblNewLabel_5);

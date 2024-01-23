@@ -730,7 +730,7 @@ public class Manager_Account extends JFrame implements ActionListener,MouseListe
 		button.setBackground(new Color(128, 128, 128));
 		
 		JLabel lblNewLabel_5 = new JLabel("J .A. M  Cafe");
-		lblNewLabel_5.setFont(new Font("Matura MT Script Capitals", Font.BOLD, 31));
+		lblNewLabel_5.setFont(new Font("Calibre", Font.BOLD, 31));
 		lblNewLabel_5.setBounds(0, 3, 300, 38);
 		contentPane.add(lblNewLabel_5);
 		btnNewButton_2.addActionListener(new ActionListener() {

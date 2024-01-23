@@ -359,7 +359,7 @@ public class Menu extends JFrame implements ActionListener{
 				// ------------------------------------------ Second Panel - Junk Food ----------------------------------------------
 				
 				JPanel panel_5 = new JPanel();
-				tabbedPane_1.addTab("Junk Food", null, panel_5, null);
+				tabbedPane_1.addTab("Fast Food", null, panel_5, null);
 				panel_5.setBackground(new Color(255, 255, 255));
 				panel_5.setLayout(null);
 				comboBox_1.setFont(new Font("Calibri", Font.PLAIN, 18));
@@ -631,13 +631,13 @@ public class Menu extends JFrame implements ActionListener{
 										JLabel lblQuantity = new JLabel("Quantity");
 										lblQuantity.setForeground(Color.BLACK);
 										lblQuantity.setFont(new Font("Calibri", Font.PLAIN, 20));
-										lblQuantity.setBounds(498, 50, 99, 28);
+										lblQuantity.setBounds(498, 50, 99, 20);
 										panel_2.add(lblQuantity);
 										
 										JLabel lblItemName = new JLabel("Item Name");
 										lblItemName.setForeground(Color.BLACK);
 										lblItemName.setFont(new Font("Calibri", Font.PLAIN, 20));
-										lblItemName.setBounds(177, 54, 128, 20);
+										lblItemName.setBounds(177, 50, 128, 20);
 										panel_2.add(lblItemName);
 										
 										JSpinner spinner_1 = new JSpinner();
@@ -649,12 +649,12 @@ public class Menu extends JFrame implements ActionListener{
 										
 										comboBox_3.setFont(new Font("Calibri", Font.PLAIN, 18));
 										//comboBox_3.setModel(new DefaultComboBoxModel(new String[] {"Select", "Orange Juice", "Carrot Juice", "Apple Juice", "Nestle Mango Juice", "Nestle Apple Juice"}));
-										comboBox_3.setBounds(177, 274, 237, 36);
+										comboBox_3.setBounds(177, 211, 237, 36);
 										panel_2.add(comboBox_3);
 										
 										comboBox_4.setFont(new Font("Calibri", Font.PLAIN, 18));
 										//comboBox_4.setModel(new DefaultComboBoxModel(new String[] {"Select", "Apple Shake", "Chocolate Shake", "Banana Shake", "Pineapple Shake"}));
-										comboBox_4.setBounds(177, 321, 237, 36);
+										comboBox_4.setBounds(177, 288, 237, 36);
 										panel_2.add(comboBox_4);
 										
 										
@@ -667,7 +667,7 @@ public class Menu extends JFrame implements ActionListener{
 										button_7.setFont(new Font("Calibri", Font.BOLD, 20));
 										button_7.setForeground(Color.WHITE);
 										button_7.setBackground(Color.BLACK);
-										button_7.setBounds(498, 274, 111, 40);
+										button_7.setBounds(498, 211, 111, 40);
 										panel_2.add(button_7);
 										button_7.addActionListener(new ActionListener() {
 											public void actionPerformed(ActionEvent arg0) {
@@ -711,7 +711,7 @@ public class Menu extends JFrame implements ActionListener{
 										button_8.setFont(new Font("Calibri", Font.BOLD, 20));
 										button_8.setForeground(Color.WHITE);
 										button_8.setBackground(Color.BLACK);
-										button_8.setBounds(498, 321, 111, 39);
+										button_8.setBounds(498, 288, 111, 39);
 										panel_2.add(button_8);
 										button_8.addActionListener(new ActionListener() {
 											public void actionPerformed(ActionEvent arg0) {
@@ -759,13 +759,13 @@ public class Menu extends JFrame implements ActionListener{
 										
 										JLabel label_3 = new JLabel("Price");
 										label_3.setFont(new Font("Calibri", Font.PLAIN, 18));
-										label_3.setBounds(416, 172, 70, 21);
+										label_3.setBounds(416, 50, 70, 21);
 										panel_2.add(label_3);
 										
 										textField_9 = new JTextField();
 										textField_9.setFont(new Font("Calibri", Font.PLAIN, 18));
 										textField_9.setColumns(10);
-										textField_9.setBounds(416, 204, 63, 36);
+										textField_9.setBounds(416, 85, 63, 36);
 										panel_2.add(textField_9);
 										
 										JLabel lblTotalPrice_2 = new JLabel("Total Price");
@@ -823,7 +823,7 @@ public class Menu extends JFrame implements ActionListener{
 										
 										JLabel lblNewLabel_10 = new JLabel("J .A. M  Cafe");
 										lblNewLabel_10.setForeground(Color.BLACK);
-										lblNewLabel_10.setFont(new Font("Matura MT Script Capitals", Font.BOLD, 51));
+										lblNewLabel_10.setFont(new Font("Calibre", Font.BOLD, 51));
 										lblNewLabel_10.setBounds(291, -1, 580, 69);
 										panel_7.add(lblNewLabel_10);
 										button_9.addActionListener(new ActionListener() {

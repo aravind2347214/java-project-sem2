@@ -134,7 +134,7 @@ public class UpdatePrice extends JFrame {
 		contentPane.add(button);
 		
 		JLabel lblNewLabel = new JLabel("J .A. M  Cafe");
-		lblNewLabel.setFont(new Font("Matura MT Script Capitals", Font.BOLD, 20));
+		lblNewLabel.setFont(new Font("Calibre", Font.BOLD, 20));
 		lblNewLabel.setBounds(10, 11, 182, 32);
 		contentPane.add(lblNewLabel);
 		

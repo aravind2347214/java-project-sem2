@@ -84,7 +84,7 @@ public class CreateAccount extends JFrame {
 		lblCreateAccount.setBackground(new Color(165, 42, 42));
 		lblCreateAccount.setForeground(new Color(255, 102, 153));
 		lblCreateAccount.setOpaque(true);
-		lblCreateAccount.setFont(new Font("Matura MT Script Capitals", Font.PLAIN, 24));
+		lblCreateAccount.setFont(new Font("Calibre", Font.PLAIN, 40));
 		lblCreateAccount.setHorizontalAlignment(SwingConstants.CENTER);
 		lblCreateAccount.setBounds(0, 0, 1370, 88);
 		contentPane.add(lblCreateAccount);
@@ -177,8 +177,8 @@ public class CreateAccount extends JFrame {
 			}
 		});
 		btnLogin.setFont(new Font("Calibri", Font.BOLD, 20));
-		btnLogin.setForeground(new Color(255, 204, 255));
-		btnLogin.setBackground(new Color(102, 51, 51));
+		btnLogin.setBackground(new Color(210, 180, 140));
+		btnLogin.setForeground(new Color(102, 51, 51));
 		btnLogin.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
 		btnLogin.setBounds(683, 530, 132, 50);
 		contentPane.add(btnLogin);
