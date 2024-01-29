@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Random;
 
 public class M_Order {
 	public ResultSet viewBill(String customerId) {
@@ -24,7 +25,13 @@ public class M_Order {
 	public String orderFood(String customerId, String Bill){
 		String id = "", orderId = "", t1 = "";
 		int id_1 = 0, t2 = 0;
-		String receivingTime = "5";
+		Random random = new Random();
+        // Generate a random number between 10 (inclusive) and 16 (exclusive)
+        int randomNumber = random.nextInt(6) + 10;
+		
+		int temp =Integer.parseInt("5") + randomNumber;
+		String receivingTime = Integer.toString(temp);
+
 		
 		// -----------------------------------------------------------
 		// get current time.
@@ -33,6 +40,8 @@ public class M_Order {
 		Calendar cal = Calendar.getInstance();
 		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
 		String orderTime = sdf.format(cal.getTime());
+
+
 		
 		try {
 			//		Class.forName("com.mysql.jdbc.Driver");
